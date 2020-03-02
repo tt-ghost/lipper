@@ -1,0 +1,42 @@
+{
+  "name": "lipper",
+  "version": "0.4.4",
+  "description": "light weight ripple library",
+  "main": "./dist/lipper.min.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config ./build/webpack.dev.conf.js",
+    "build": "webpack --config ./build/webpack.build.conf.js",
+    "build-demo": "webpack --config ./build/webpack.build-demo.conf.js"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tt-ghost/lipper.git"
+  },
+  "keywords": [
+    "lipper",
+    "ripple"
+  ],
+  "author": "Chengzi <ttghost@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tt-ghost/lipper/issues"
+  },
+  "homepage": "https://github.com/tt-ghost/lipper#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
